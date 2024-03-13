@@ -192,7 +192,34 @@ SELECT * FROM
     )
 WHERE rn > 10 AND rn <= 20;
 
+/*
+문제 13. 
+--EMPLOYEES 와 DEPARTMENTS 테이블에서 JOB_ID가 SA_MAN 사원의 정보의 LAST_NAME, JOB_ID, 
+DEPARTMENT_ID,DEPARTMENT_NAME을 출력하세요.
+*/
 
+
+/*
+문제 14
+-- DEPARTMENTS 테이블에서 각 부서의 ID, NAME, MANAGER_ID와 부서에 속한 인원수를 출력하세요.
+-- 인원수 기준 내림차순 정렬하세요.
+-- 사람이 없는 부서는 출력하지 않습니다.
+*/
+
+
+/*
+문제 15
+--부서에 대한 정보 전부와, 주소, 우편번호, 부서별 평균 연봉을 구해서 출력하세요.
+--부서별 평균이 없으면 0으로 출력하세요.
+*/
+    
+
+
+/*
+문제 16
+-문제 15 결과에 대해 DEPARTMENT_ID기준으로 내림차순 정렬해서 
+ROWNUM을 붙여 1-10 데이터 까지만 출력하세요.
+*/
 
 
 
